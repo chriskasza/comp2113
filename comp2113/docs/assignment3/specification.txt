@@ -1,0 +1,78 @@
+Structure:
+This unsorted list ADT 
+implements a hashmap where the keys are the strings being stored in the list and the values are objects (StringListElement class) that retain the string and awareness of the previous and next objects in the list.  This linked list implementation allows for very quick updates since a maximum of three elements are updated compared to a maximum of all elements in an indexed implementation.
+
+
+Definitions (provided by the user):
+none
+
+
+Operations (provided by EditorStringList):
+
+EditorStringList()
+Effect: Instatiates an empty list.
+Postcondition: Empty list.
+
+EditorStringList(String source)
+Effect: Instatiates a list with one element.
+Postcondition: List with one element.
+
+void insertAfter(String source, String destination)
+Effect: Inserts the string, source, after the string, destination, in the list of strings.
+Precondition: destination has to be present in the list.
+	source cannot be present in the list.
+Postcondition: source is added to the list following destination.
+	the destination object's next pointer is source.
+	the previous pointer of the object originally following destination now points to source.
+
+void insertBefore(String source, String destination)
+Effect: Inserts the string, source, before the string, destination, in the list of strings.
+Precondition: destination has to be present in the list.
+	source cannot be present in the list.
+Postcondition: source is added to the list preceding destination.
+	the destination object's previous pointer is source.
+	the next pointer of the object originally preceding destination now points to source.
+
+void insertFront(String source)
+Effect: Inserts the string, source, at the beginning of the list of strings.
+Precondition: source cannot be present in the list.
+Postcondition: source is added to the front of the list.
+	the previous pointer of the object originally at the start of the list now points to source.
+
+void insertEnd(String source)
+Effect: Inserts the string, source, at the end of the list of strings.
+Precondition: source cannot be present in the list.
+Postcondition: source is added to the back of the list.
+	the next pointer of the object originally at the end of the list now points to source.
+
+void remove(String source)
+Effect: Deletes the string, source, from the list of strings.
+Precondition: source must be present in the list.
+Postcondition: source is removed from the list.
+	the next pointer of the element originally preceding source points to the element originally following source and vice versa.
+
+String print(StringListElement element)
+Effect: Returns the string of element and every string following element in the list, separated by spaces.
+Precondition: element must be present in the list.
+Postcondition: returns list of elements following element in forward order.
+
+String revPrint(StringListElement element)
+Effect: Returns the string of element and every string preceding element in the list, separated by spaces.
+Precondition: element must be present in the list.
+Postcondition: returns list of elements preceding element in reverse order.
+
+boolean exists(String source)
+Effect: Returns true/false whether source exists in the list.
+Postcondition: returns true/false whether source exists in the list.
+
+boolean isEmpty()
+Effect: Returns true/false whether the list is empty.
+Postcondition: returns true/false whether the list is empty.
+
+StringListElement getFirstElement()
+Effect: Returns the first element in the list or null if list is empty.
+Postcondition: Returns the first element in the list or null if list is empty.
+
+StringListElement getLastElement()
+Effect: Returns the last element in the list or null if list is empty.
+Postcondition: Returns the first element in the list or null if list is empty.

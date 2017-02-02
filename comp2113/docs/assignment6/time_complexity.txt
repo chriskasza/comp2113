@@ -1,0 +1,17 @@
+union - O(n * n) - iterates over setB * (# of elements in setA) and iterates over setA * (# of setB elements)
+
+intersection - O(n * n) - iterates through setB * (# of elements in setA)
+
+difference - O(n * n) - iterates over setB * (# of elements in setA) and iterates over setA * (# of setB elements)
+
+equal - O(n)
+
+member - O(n)
+
+makeNull - O(n)
+
+assign - O(n)
+
+insert - O(1)
+
+delete - O(n)

@@ -1,0 +1,22 @@
+Adding First to Set 1 and Set 2.
+Adding Second to Set 1 and Set 2.
+Adding Third to Set 1 and Set 2.
+Adding Fourth to Set 1 and Set 2.
+Adding Fifth to Set 1 and Set 2.
+
+Set 1 has the same elements as Set 2
+
+Adding "Sixth" to Set 1
+Adding "Seventh" to Set 2
+
+Set 1 has different elements than Set 2
+
+The difference between Set 1 and Set 2 is: Seventh Sixth
+The union of Set 1 and Set 2 is: Seventh First Second Third Fourth Fifth Sixth
+The intersection of Set 1 and Set 2 is: First Second Third Fourth Fifth
+Assign Set 1 to Set 2
+
+Set 1 has the same elements as Set 2
+
+The contents of Set 1 are: Sixth Fifth Fourth Third Second First
+The contents of Set 2 are: First Second Third Fourth Fifth Sixth

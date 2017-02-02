@@ -1,0 +1,28 @@
+Test Plan Output
+
+Unsorted List
+Forwards Order: First Second Third Fourth Fifth
+Reverse Order: Fifth Fourth Third Second First
+
+Another Unsorted List
+Forwards Order: First Second Third Fourth Fifth
+Reverse Order: Fifth Fourth Third Second First
+
+--delete "Second" element
+Unsorted List
+Forwards Order: First Fifth Third Fourth
+Reverse Order: Fourth Third Fifth First
+
+Another Unsorted List
+Forwards Order: First Third Fourth Fifth
+Reverse Order: Fifth Fourth Third First
+
+--add "Sixth" element
+Unsorted List
+Forwards Order: First Fifth Third Fourth Sixth
+Reverse Order: Sixth Fourth Third Fifth First
+
+Another Unsorted List
+Forwards Order: First Third Fourth Fifth Sixth
+Reverse Order: Sixth Fifth Fourth Third First
+

@@ -1,0 +1,23 @@
+Test Plan (SetDriver.java),,
+,,
+Operation to be tested,Input Values,Expected Output
+======================,============,===============
+Set,,
+  create two set objects,,
+insert,,
+  insert 5 items,"First, Second, Third, Fourth, Fifth",
+equals,,
+  check if sets are equal,,TRUE
+insert,,
+  insert an item to set 1,Sixth,
+  insert diff item to set 2,Seventh,
+equal,,
+  check if sets are equal,,FALSE
+difference,,
+  list the elements different between set 1 and set 2,,"Sixth, Seventh"
+union,,
+  list the elements from the union of set 1 and set 2,,"First, Second, Third, Fourth, Fifth, Sixth, Seventh"
+intersection,,
+  list the elements that exist in both set 1 and set 2,,"First, Second, Third, Fourth, Fifth"
+assign ,,
+  overwrite the set 2 with the elements of set 1,,

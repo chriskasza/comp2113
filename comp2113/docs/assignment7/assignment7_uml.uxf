@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>10</y>
+      <w>240</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt; 
+*ListInterface*
+--
+--
++isFull(): boolean
++lengthIs(): int
++isThere(item: Listable): boolean
++retrieve(item: Listable): Listable
++insert(item: Listable): void
++delete(item: Listable): void
++reset(): void
++getNextItem(): Listable</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>240</y>
+      <w>240</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>/*DoubleLinkedList*/
+--
+#list: ListNode
+#numItems: int
+#currentPost: ListNode
+--
++LinkedList()
++isFull(): boolean
++lengthIs(): int
++isThere(item: Listable): boolean
++retrieve(item: Listable): Listable
++insert(item: Listable): void
++delete(item: Listable): void
++reset(): void
++getNextItem(): Listable
++getPrevItem(): Listable</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>190</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>480</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>210</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+*Listable*
+--
+--
+/+compareTo(other: Listable): int/
+/+copy(): Listable/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>320</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>*#ListNode*
+--
+#info: Listable
+#prev: Listable
+#next: Listable
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>560</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*ListDriver*
+--
+--
++_main_(args: String[]): void
++_print_(set: Set): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>110</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>270</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>590</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>720</x>
+      <y>230</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=blue
+ListNode is a protected, 
+nested class</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>520</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>*ListString*
+--
+-key: String
+--
++ListString(inString: String)
++copy(): Listable
++compareTo(otherListString: Listable): int
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>290</y>
+      <w>30</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+</diagram>

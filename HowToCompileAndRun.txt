@@ -1,0 +1,3 @@
+cd "C:\Users\Chris Kasza\Dropbox\Acadia\COMP 2113\comp2113\chriskasza-comp2113-a11"
+"\Program Files\Java\jdk1.8.0_92\bin\javac.exe" -Xdiags:verbose -d bin assignment11\*.java
+"\Program Files\Java\jdk1.8.0_92\bin\java.exe" -cp .\bin assignment11.WeightedGraphDriver

@@ -1,0 +1,18 @@
+The graph is empty.
+Adding vertex, 1
+Adding vertex, 3
+Adding vertex, 5
+Adding vertex, 7
+Adding vertex, 9
+Adding vertex, 11
+Adding edge from 3 to 1
+Adding edge from 1 to 3
+Adding edge from 11 to 1
+Adding edge from 9 to 11
+Adding edge from 9 to 9
+Adding edge from 5 to 9
+Adding edge from 5 to 7
+The vertex, 5, can reach 5 other vertices.
+The vertex, 3, can reach 1 other vertices.
+The vertex, 11, can reach 2 other vertices.
+The vertex, 7, can reach 0 other vertices.

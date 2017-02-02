@@ -1,0 +1,416 @@
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 3
+
+There are 0 patients to be served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 4
+
+There have been 0 patients served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: Arterial Allen
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 1
+
+Add a new patient: 
+Name: Arterial Allen
+Priority level: 33.3
+
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 1
+
+Add a new patient: 
+Name: Bones Barker
+Priority level: 13
+
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 1
+
+Add a new patient: 
+Name: Clemmenson Clark
+Priority level: 75.5
+
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 1
+
+Add a new patient: 
+Name: Dormant Dennis
+Priority level: 33.3
+
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 3
+
+There are 4 patients to be served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 4
+
+There have been 0 patients served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 5
+
+Patients waiting to be served (incl. priority level): 
+Clemmenson Clark (75.5)
+Dormant Dennis (33.3)
+Arterial Allen (33.3)
+Bones Barker (13.0)
+
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 2
+
+Next patient is: Clemmenson Clark
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 3
+
+There are 3 patients to be served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 4
+
+There have been 1 patients served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 2
+
+Next patient is: Dormant Dennis
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 2
+
+Next patient is: Arterial Allen
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 3
+
+There are 1 patients to be served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 4
+
+There have been 3 patients served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 5
+
+Patients waiting to be served (incl. priority level): 
+Bones Barker (13.0)
+
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 1
+
+Add a new patient: 
+Name: Elbow Jay
+Priority level: 13.1
+
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 2
+
+Next patient is: Elbow Jay
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 2
+
+Next patient is: Bones Barker
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 2
+
+There are no patients waiting!
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 3
+
+There are 0 patients to be served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 4
+
+There have been 5 patients served.
+
+
+
+Triage Menu
+-----------
+
+1. Add patient
+2. Get next patient
+3. Get the number of waiting patients
+4. Get the number patients served
+5. Display list of waiting patients
+6. Exit Application
+
+Choose an option [1-6]: 6
+
+Goodbye.

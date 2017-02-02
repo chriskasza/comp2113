@@ -1,0 +1,27 @@
+Trying to delete "Empty" from the empty list
+
+The contents of the list are: 
+
+Inserting "Zeroth" to the list
+
+The contents of the list are: Zeroth 
+
+Deleting "Zeroth" from the list
+
+The contents of the list are: 
+
+Adding First to the list.
+Adding Second to the list.
+Adding Third to the list.
+Adding Fourth to the list.
+
+The contents of the list are: First Second Third Fourth 
+
+Adding "Fourth" to list
+
+The contents of the list are: First Second Third Fourth 
+
+Deleting "Fourth" from the list
+
+The contents of the list are: First Second Third 
+

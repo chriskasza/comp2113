@@ -1,0 +1,42 @@
+Results Test Case One
+
+The list is instantiated with size 5
+
+Bob was inserted into the list
+1. Bob
+
+Alice was inserted into the list
+1. Bob
+2. Alice
+
+Length of the list is 2
+1. Bob
+2. Alice
+
+The list is full is false
+1. Bob
+2. Alice
+
+Alice is on the list: true
+1. Bob
+2. Alice
+
+Fred is on the list: false
+1. Bob
+2. Alice
+
+Alice was deleted from the list
+1. Bob
+
+Alice is on the list: false
+1. Bob
+
+Tom was inserted into the list
+1. Bob
+2. Tom
+
+Julie was inserted into the list
+1. Bob
+2. Tom
+3. Julie
+

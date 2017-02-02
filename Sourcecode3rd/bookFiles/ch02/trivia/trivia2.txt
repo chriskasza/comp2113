@@ -1,0 +1,43 @@
+General Trivia 2
+7
+9
+Rock and Roll
+Name the first name of one of the Fab Four.
+4
+John
+Paul
+George
+Ringo
+Math
+What is 5 + 2?
+2
+7
+seven
+History
+Who was the second president of the USA?
+2
+Adams
+John Adams
+Vegetables
+What color are carrots?
+1
+orange
+Technology
+What sort of information is held in an MP3 file?
+4
+music
+songs
+audio
+sound
+Literature
+Who wrote The Mythical Man-Month?
+5
+Fred Brooks
+Brooks
+Frederick Brooks
+Frederick P Brooks
+Frederick P. Brooks
+Geography
+On what continent will you find Vicoria Falls?
+1
+Africa

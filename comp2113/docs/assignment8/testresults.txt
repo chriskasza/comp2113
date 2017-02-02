@@ -1,0 +1,33 @@
+Table 1:
+Print Inorder: [a]
+Print Postorder: [a]
+Print Preorder: [a]
+
+Table 2:
+Print Inorder: [b, a]
+Print Postorder: [b, a]
+Print Preorder: [a, b]
+
+Add sibling "c" to Table 2
+
+Add sibling "d" to Table 2
+
+Add child "e" to Table 2
+
+Add sibling "f" to Table 2
+
+Table 2:
+Print Inorder: [e, f]
+Print Postorder: [f, e]
+Print Preorder: [e, f]
+
+Table 1:
+Print Inorder: [b, e, f, c, d, a]
+Print Postorder: [f, e, d, c, b, a]
+Print Preorder: [a, b, c, e, f, d]
+
+The size of table 1 is 6
+
+The height of table 1 is  3
+
+The number of leaves of table 1 is 2

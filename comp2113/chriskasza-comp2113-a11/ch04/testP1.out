@@ -1,0 +1,40 @@
+
+String 001: A man, a plan, a canal, Panama
+            Is a palindrome.
+
+String 002: amanaplanacanalpanama
+            Is a palindrome.
+
+String 003: This is not a palindrone!
+            Not a palindrome 
+
+String 004: aaaaaaaaaaa
+            Is a palindrome.
+
+String 005: a
+            Is a palindrome.
+
+String 006: aaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaa
+            Not a palindrome 
+
+String 007: aAaaaaaaaabaaaaaaAaaa
+            Is a palindrome.
+
+String 008: This string is too long xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxx
+String too long - processing skipped
+
+String 009: bob
+            Is a palindrome.
+
+String 010: dan
+            Not a palindrome 
+
+String 011: Madam, I'm Adam.
+            Is a palindrome.
+
+String 012: eve
+            Is a palindrome.
+
+String 013: Eve
+            Is a palindrome.
+

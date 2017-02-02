@@ -1,0 +1,30 @@
+String 01: ( xx ( xx ( ) ) xx )
+           ( xx ( xx ( ) ) xx ) The string is balanced.
+
+String 02: ( xx ( xx ( ) ) xxx ) xxx)
+           ( xx ( xx ( ) ) xxx ) xxx) Unbalanced symbols 
+
+String 03: [ ] ( ) { }
+           [ ] ( ) { } The string is balanced.
+
+String 04: ] [
+           ] Unbalanced symbols 
+
+String 05: (  [  ]  { xxx } xxx (  )  xxx )
+           (  [  ]  { xxx } xxx (  )  xxx ) The string is balanced.
+
+String 06: (  xx  [  xxx  )  xx  ]
+           (  xx  [  xxx  ) Unbalanced symbols 
+
+String 07: ( [ { [ ( ( [ { x } ] ) x ) ] } x ] )
+           ( [ { [ ( ( [ { x } ] ) x ) ] } x ] ) The string is balanced.
+
+String 08: ( [ { [ ( ( [ { x } ] ) x ) ] } x } )
+           ( [ { [ ( ( [ { x } ] ) x ) ] } x } Unbalanced symbols 
+
+String 09: xxxxxxxxxxxxxxxxxxxxxxxxx
+           xxxxxxxxxxxxxxxxxxxxxxxxx The string is balanced.
+
+String 10: xxxxxxxxxxxxxxxxxxxxxx {
+           xxxxxxxxxxxxxxxxxxxxxx { Premature end of string
+

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>10</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt; 
+*ListInterface*
+--
+--
++isFull(): boolean
++lengthIs(): int
++isThere(item: Listable): boolean
++retrieve(item: Listable): Listable
++insert(item: Listable): void
++delete(item: Listable): void
++reset(): void
++getNextItem(): Listable</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>240</y>
+      <w>240</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>/*LinkedList*/
+--
+#list: ListNode
+#numItems: int
+#currentPost: ListNode
+--
++LinkedList()
++isFull(): boolean
++lengthIs(): int
+/+isThere(item: Listable): boolean/
++retrieve(item: Listable): Listable
+/+insert(item: Listable): void/
++delete(item: Listable): void
++reset(): void
++getNextItem(): Listable</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>520</y>
+      <w>240</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>*UnsortedLinkedList*
+--
+--
++UnsortedLinkedList()
++isThere(item: Listable): boolean
++insert(item: Listable): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>660</y>
+      <w>280</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>*Set*
+--
+--
++Set()
++_union_(setA: Set, setB: Set): Set
++_intersection_(setA: Set, setB: Set): Set
++_difference_(setA: Set, setB: Set): Set
++_equal_(setA: Set, setB: Set): Set
++member(item: Listable): boolean
++makeNull(): void
++assign(otherSet: Set): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>470</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>190</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>830</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>560</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+*Listable*
+--
+--
+/+compareTo(other: Listable): int/
+/+copy(): Listable/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>320</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*#ListNode*
+--
+#info: Listable
+#next: Listable
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>610</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>880</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*StackDriver*
+--
+--
++_main_(args: String[]): void
++_print_(set: Set): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>110</y>
+      <w>200</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;450.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>360</y>
+      <w>190</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;220.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>560</y>
+      <w>190</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>620</y>
+      <w>170</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>640</y>
+      <w>210</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>720</x>
+      <y>230</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=blue
+ListNode is a protected, 
+nested class</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,23 @@
+Test Case One
+UnsortedStringList1
+5
+insert
+Bob
+insert
+Alice
+lengthIs
+isFull
+isThere
+Alice
+isThere
+Fred
+delete
+Alice
+isThere
+Alice
+insert
+Tom
+insert
+Julie
+quit
+

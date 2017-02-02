@@ -1,0 +1,18 @@
+Assignment 3 Questions
+
+
+a) Consider the design of AnotherUnsortedList, in which insert() and delete() have different signatures than in the root interface and are functions that return true if successful and false otherwise. Is this design correct (justify your answer by providing examples of how to use these two functions)?
+
+A class that implements an interface needs to include all methods listed in the interface and all signatures of that method.  The class can also include methods not specified in the interface, so including insert() and delete() methods that return a boolean is acceptable.
+The body of methods could be similar to the methods of type void except that they would return true when the operation was successful and false when it was not (ie. false for insert if the list is full and false for delete when the element is not present in the list).
+
+
+b) Consider the design of AnotherUnsortedList, in which a copy constructor is supported. How does it affect the client? (In particular, how can the client use this copy constructor?) 
+
+The client would call the copy constructor and pass an existing instance of AnotherUnsortedList to the constructor.  The copy constructor would create a new instance of the AnotherUnsortedList class containing all of the same attributes of the instance that was passed to it and return the new instance to the client.  
+
+client code:
+AnotherUnsortedList first = new AnotherUnsortedList();
+first.insert(new ListString("entry"));
+...
+AnotherUnsortedList second = new AnotherUnsortedList(first);

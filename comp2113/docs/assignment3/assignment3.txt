@@ -1,0 +1,25 @@
+In this part, you will develop another implementation of a class list, and use it to demonstrate polymorphic behavior of Java methods.
+
+1. Design and implement a class AnotherUnsortedList that implements the abstract class List, and supports the following changes to the class UnsortedList:
+
+- insert() and delete() don't change the order of elements on the list
+- duplicates are allowed (retrieve() will return the first item with the given key)
+
+CK - extend ArrayUnsortedList
+CK - implement List and redirect calls to AUL class or throw exception
+
+2. Write the driver class with a print(ListInterface L) and printReverse(ListInterface L) methods that respectively return a string containing all elements (separated by a single space) of the list L and return a string containing these elements (separated by a single space) in reverse order. 
+In the main() method, populate both lists and then call both print() methods twice; once for the actual parameter of type UnsortedList and the second time for the actual parameter of type AnotherUnsortedList.
+
+3. Use a single package, called Assignment3
+
+4. Answer the following questions:
+
+a) Consider the design of AnotherUnsortedList, in which insert() and delete() have different signatures than in the root interface and are functions that return true if successful and false otherwise. Is this design correct (justify your answer by providing examples of how to use these two functions)?
+
+b) Consider the design of AnotherUnsortedList, in which a copy constructor is supported. How does it affect the client? (In particular, how can the client use this copy constructor?) 
+
+Handin:
+
+the source code, in which you print the contents of each list after having executed both insert() and delete()
+Answers to questions

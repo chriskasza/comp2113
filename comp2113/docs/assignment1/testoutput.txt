@@ -1,0 +1,16 @@
+Address Test:
+Billy Joe Bob
+123 Sycamore Ln.
+Centreville
+Canada
+A1A1A1
+
+
+Extended Test:
+Jordy
+Deck 3
+Enterprise D
+Federation
+B0p 1H0
+
+IllegalArgumentException: D1A1A1

@@ -1,0 +1,14 @@
+Results Test Case Two
+
+The list is instantiated with default size
+Bob was inserted into the list
+Bob was retrieved from the list
+Alice was inserted into the list
+Length of the list is 2
+The list is full is false
+Alice is on the list: true
+Fred is on the list: false
+Alice was deleted from the list
+Alice is on the list: false
+Tom was inserted into the list
+Julie was inserted into the list

@@ -1,0 +1,28 @@
+Creating an array of three string elements: First, Second, Third.
+Pushing "First" onto the Reference Stack and Copy Stack.
+Pushing "Second" onto the Reference Stack and Copy Stack.
+Pushing "Third" onto the Reference Stack and Copy Stack.
+
+Changing the second item in the array from "Second" to "two".
+
+Top element on the 
+Reference Stack: Third
+Copy Stack: Third
+
+Pop the top element off the stacks.
+Top element on the 
+Reference Stack: two
+Copy Stack: Second
+
+Pop the top element off the stacks.
+Top element on the 
+Reference Stack: First
+Copy Stack: First
+
+Pop the top element off the stacks.
+Nothing left on the Reference Stack.
+Nothing left on the Copy Stack.
+
+Try to pop an element off the empty stacks.
+The Reference Stack cannot be popped anymore because it is empty.
+The Copy Stack cannot be popped anymore because it is empty.
